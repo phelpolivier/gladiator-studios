@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #292929;
 }
 
 header {
@@ -36,7 +41,6 @@ header > img {
 }
 
 header > menu > ul > li > a {
-    color: white;
     text-decoration: none;
 }
 
@@ -44,10 +48,37 @@ header > menu > ul > li > a:hover {
     text-decoration: underline;
 }
 
-h1 {
+div.mg {
+    padding-top: 30px;
+    padding-left: 10px;
+    margin: auto;
+    display: block;
+    height: 300px;
+    width: 1000px;
+}
+
+div.mg > div.esquerda > h1 {
+    padding-top: 90px;
     font-size: 30px;
 }
+
+div.mg > div.esquerda {
+    padding-left: 100px;
+    position: absolute;
+    float: left;
+}
+
+div.mg > div.direita {
+    float: right;
+    width: 300px;
+    padding-right: 300px;
+}
+
+div.mg > div.direita > img {
+    padding-right: 16px;
+    height: 294px;
+}
+
 footer {
     background-color: #272727;
-    color: white;
 }
