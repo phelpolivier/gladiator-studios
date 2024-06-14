@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 100px) {
+@media screen and (min-width: 700px) {
     .menu{
         display: block;
         background-color: #272727;
@@ -35,7 +35,7 @@
         padding-left: 10px;
         margin: auto;
         display: block;
-        height: 300px;
+        height: 500px;
         width: 1000px;
     }
 
@@ -48,16 +48,18 @@
         padding-left: 100px;
         position: absolute;
         float: left;
+        height: 500px;
     }
 
     div.mg > div.direita {
         float: right;
-        width: 300px;
+        width: 500px;
         padding-right: 300px;
+        height: 500px;
     }
 
     div.mg > div.direita > img {
         padding-right: 16px;
-        height: 294px;
+        height: 484px;
     }
 }
