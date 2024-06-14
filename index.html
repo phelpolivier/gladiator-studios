@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/Vagalumes.jpg" type="image/x-icon">
-    <title>Mugiwara Games</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/midias.css">
     <script src="script/script.js"></script>
+    <title>Mugiwara Games</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body onresize="tamanho()">
     <header>
         <img src="imagens/Logo_Mugiwara_Games.png" alt="Mugiwara Games">
-        <menu class="menu" id="menu">
+        <i id="menu" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu class="menu" id="itens">
             <ul class="ul">
                 <li class="li"><a href="">PROJETOS</a></li>
                 <li class="li"><a href="">JOGOS</a></li>
@@ -25,7 +28,8 @@
         <article>
             <div class="mg">
                 <div class="esquerda">
-                    <h1>A Empresa que irá Revolucionar<br> a Indústria dos Games</h1>
+                    <h1>A Empresa que irá Revolucionar<br> a Indústria dos Games.</h1><br>
+                    <a href="outras-abas/quem-somos/index.html" class="botao1">Conheça a Mugiwara</a> 
                 </div>
                 <div class="direita">
                     <!--<img src="imagens/bloodborne-grande.jpg" alt="">-->

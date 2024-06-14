@@ -20,7 +20,14 @@ header > img {
     height: 90px;
 }
 
+#menu { /*Ícone Menu Hamburguinho*/
+    float: right;
+    padding-top: 35px;
+    padding-right: 10px;
+}
+
 .menu{
+    display: none;
     background-color: #272727;
     float:right;
 }
@@ -54,29 +61,38 @@ div.mg {
     margin: auto;
     display: block;
     height: 300px;
-    width: 1000px;
+    width: 415px;
 }
 
 div.mg > div.esquerda > h1 {
-    padding-top: 90px;
-    font-size: 30px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-size: 40px;
 }
 
 div.mg > div.esquerda {
-    padding-left: 100px;
+    /*padding-left: 100px;*/
     position: absolute;
     float: left;
 }
 
-div.mg > div.direita {
-    float: right;
-    width: 300px;
-    padding-right: 300px;
+div.esquerda > a.botao1 {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid white;
+    background-color: rgba(14, 185, 23, 0.692);
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-div.mg > div.direita > img {
-    padding-right: 16px;
-    height: 294px;
+div.mg > div.direita {
+    background-color: #464646;
+    margin-top: 280px;
+    width: 400px;
+    height: 200px;
 }
 
 footer {
