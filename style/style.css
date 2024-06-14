@@ -89,7 +89,7 @@ div.esquerda > a.botao1 {
 }
 
 div.mg > div.direita {
-    background-color: #464646;
+    background-image: image-set("../imagens/capa-pequena.png");
     margin-top: 280px;
     width: 385px;
     height: 200px;

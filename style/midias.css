@@ -57,6 +57,9 @@
     }
 
     div.mg > div.direita {
+        background-image: image-set("../imagens/capa-grande.png");
+        background-repeat: no-repeat;
+        background-position: right center;
         float: right;
         width: 600px;
         margin-top: 0px;
