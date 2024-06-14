@@ -5,6 +5,7 @@
         display: block;
         background-color: #272727;
         float:right;
+        border: none;
     }
 
     #menu {
