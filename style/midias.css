@@ -46,6 +46,7 @@
 
     div.mg > div.esquerda > h1 {
         float: left;
+        margin-top: 0px;
         padding-top: 165px;
     }
 
@@ -67,3 +68,5 @@
         height: 450px;
     }
 }
+
+/* I SAW HER STADING THERE - The Beatles */
