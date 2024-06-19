@@ -72,7 +72,7 @@ div.mg > div.esquerda > h1 {
 
 div.mg > div.esquerda {
     /*padding-left: 100px;*/
-    position: relative;
+    position: absolute;
     float: left;
 }
 
