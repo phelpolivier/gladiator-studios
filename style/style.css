@@ -8,17 +8,18 @@
 }
 
 :root {
-    --font: Arial, Helvetica, sans-serif;
+    --font1: "Outfit" , sans-serif;
+    --font2: Arial, Helvetica, sans-serif
 }
 
 body {
     background-color: #292929;
-    font-family: "Outfit", sans-serif;
+    font-family: var(--font1);
 }
 
 header {
     background-color: #272727;
-    font-family: var(--font);
+    font-family: var(--font2);
 }
 
 header > img {
