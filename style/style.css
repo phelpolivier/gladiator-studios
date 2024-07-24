@@ -105,8 +105,29 @@ div.mg > div.direita {
 }
 
 div.jogos{
+    padding-top: 200px;
     margin: auto;
     display: block;
+    width: 360px;
+}
+
+div.jogos > h1 {
+    text-align: center;
+}
+
+div.q {
+    margin: auto;
+    display: block;
+    width: 280px;
+    height: 125px;
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.q > p {
+    text-align: center;
+    padding-top: 50px;
 }
 
 footer {

@@ -70,6 +70,54 @@
         padding-right: 300px;
         height: 450px;
     }
-}
 
-/* I SAW HER STADING THERE - The Beatles */
+    div.jogos{
+        padding-top: 50px;
+        margin: auto;
+        display: block;
+        width: 1000px;
+        height: 300px;
+    }
+    
+    div.jogos > h1 {
+        text-align: center;
+    }
+
+    div.quadro {
+        margin: auto;
+        display: block;
+        width: 1000px;
+        height: 150px;
+    }
+    
+    div.q {
+        width: 50%;
+        min-width: 250px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    div.q > p {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    div#q1 {
+        float: left;
+        width: 280px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    div#q2 {
+        width: 280px;
+        margin-left: 40px;
+    }
+
+    div#q3 {
+        float: right;
+        width: 280px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
